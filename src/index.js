@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-toastify/dist/ReactToastify.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
+import Login from './Components/Login';
+import { BrowserRouter, Route, route } from "react-router-dom";
+import Menuns from './Components/Menus';
+
 
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+<BrowserRouter>
+   <App/>
+   </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
