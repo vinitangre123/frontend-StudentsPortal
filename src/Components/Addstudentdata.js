@@ -130,9 +130,11 @@ export default class Addstudentdata extends Component {
 
   }
  
-  onchangedistrict = District => (event) => {
+  onchangedistrict = District =>(event) => {
 
-    console.log(event.target.value);
+    alert(123);
+
+    console.log("value of the event"+event.target.value);
 }
 
 
@@ -197,7 +199,7 @@ export default class Addstudentdata extends Component {
 
   render() {
 
-    const { studentname, age, place, mobileno, colleagename, pincode, city, bankname,District } = this.state
+    const { studentname, age, place, mobileno, colleagename, pincode, city, bankname } = this.state
     return (
       <div className="App">
 
@@ -268,7 +270,7 @@ export default class Addstudentdata extends Component {
           </Input>
         </FormGroup>
 
-
+{/* 
         <FormGroup>
           <Label for="exampleSelect">District</Label>
            
@@ -279,7 +281,7 @@ export default class Addstudentdata extends Component {
             )}
               
           </Input>
-        </FormGroup>
+        </FormGroup> */}
 
           <FormGroup>
             <Label for="examplePassword">Bankname</Label>

@@ -129,6 +129,7 @@ tableData:slice
               <th>Place</th>
               <th>MobileNo</th>
               <th>Colleageame</th>
+              <th>State</th>
               <th>Gender</th>
               <th>PinCode</th>
               <th>Bankname</th>
@@ -146,6 +147,7 @@ tableData:slice
                   <td>{tdata.place}</td>
                   <td>{tdata.mobileno}</td>
                   <td>{tdata.colleagename}</td>
+                  <td>{tdata.city}</td>
                   <td>{tdata.gender}</td>
                   <td>{tdata.pincode}</td>
                   <td>{tdata.bankname}</td>
